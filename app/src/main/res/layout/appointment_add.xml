@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="BOOK APPOINTMENT"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/appcare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Care Given ID :" />
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/apppetown"
+        android:hint="Pet Owner Name and Contact No : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/apppet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Pet ID : " />
+
+    <EditText
+        android:id="@+id/apppetnote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Location : " />
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/appduration"
+        android:hint="Duration : (DD/MM/YYYY) - (DD/MM/YYYY) "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/appconf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="( For use by Care Given )                               ( Accept / Reject )" />
+
+    <Button
+        android:id="@+id/appbook_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#F18BAD"
+        android:text="BOOK"
+        android:textColor="#fff" />
+
+</LinearLayout>

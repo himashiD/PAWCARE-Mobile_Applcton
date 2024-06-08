@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="UPDATE DATA"
+        android:textColor="#fff" />
+    <EditText
+        android:id="@+id/careid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CareGiver ID : " />
+
+    <EditText
+        android:id="@+id/carename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name : " />
+
+    <EditText
+        android:id="@+id/carecontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact No : " />
+
+    <EditText
+        android:id="@+id/carelocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location :" />
+
+    <EditText
+        android:id="@+id/carepayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Payment :" />
+
+    <EditText
+        android:id="@+id/careexperince"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Experiance" />
+
+    <Button
+        android:id="@+id/care_update_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F18BAD"
+        android:text="Update" />
+
+</LinearLayout>

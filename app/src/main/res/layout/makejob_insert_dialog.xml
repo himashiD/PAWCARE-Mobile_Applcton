@@ -1,0 +1,60 @@
+<!-- insert_dialog.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="INSERT DATA"
+        android:textColor="#fff" />
+    <EditText
+        android:id="@+id/careid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CareGiver ID : " />
+
+    <EditText
+        android:id="@+id/carename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name : " />
+
+    <EditText
+        android:id="@+id/carecontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact No : " />
+
+    <EditText
+        android:id="@+id/carelocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location :" />
+
+    <EditText
+        android:id="@+id/carepayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Payment :" />
+
+    <EditText
+        android:id="@+id/careexperience"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Experience" />
+
+    <Button
+        android:id="@+id/care_insert_btn"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:backgroundTint="#F18BAD"
+        android:text="Insert" />
+
+
+</LinearLayout>

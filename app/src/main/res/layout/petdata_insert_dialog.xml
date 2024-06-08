@@ -1,0 +1,64 @@
+<!-- insert_dialog.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="INSERT DATA"
+        android:textColor="#fff" />
+    <EditText
+        android:id="@+id/petcategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category : " />
+
+    <EditText
+        android:id="@+id/petname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pet Name : " />
+
+    <EditText
+        android:id="@+id/petage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pet Age : " />
+
+    <EditText
+        android:id="@+id/petbread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bread :" />
+
+    <EditText
+        android:id="@+id/petgender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pet Gender :" />
+
+    <EditText
+        android:id="@+id/petcolour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pet Colour" />
+
+    <EditText
+        android:id="@+id/petnote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Special Note :" />
+
+    <Button
+        android:id="@+id/insert_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F18BAD"
+        android:text="Insert" />
+</LinearLayout>
