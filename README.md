@@ -1,6 +1,7 @@
 🔧 PAW CARE Mobile Application
 
 Welcome to PAW CARE! This mobile application is your go-to solution for all your pet care needs, whether you're a pet owner or a caregiver. Designed to be user-friendly and efficient, the app offers a wide range of features to manage pet care seamlessly.
+
 ![WhatsApp Image 2024-08-15 at 15 45 36_f73ef529](https://github.com/user-attachments/assets/a20c19dc-47f7-4094-bd9b-a7159145c292)
 
 🐾 Customer Options
@@ -38,5 +39,6 @@ Log Out: Securely exit the app.
 Java/Kotlin - Programming languages used for developing the application.
 
 Android Studio - Integrated development environment (IDE) used for building and testing the application.
+
 ![Screenshot 2024-08-15 160503](https://github.com/user-attachments/assets/e802ab0c-38e2-4833-8afb-160d3115966c)
 
