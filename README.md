@@ -40,7 +40,8 @@ About Us: Learn more about our services.
 
 Log Out: Securely exit the app.
 
-![WhatsApp Image 2024-08-15 at 15 45 40_9e6188b2](https://github.com/user-attachments/assets/8797a5c4-6c35-4126-9a0e-abb64c640dcf)
+![Screenshot 2024-08-15 160503](https://github.com/user-attachments/assets/e802ab0c-38e2-4833-8afb-160d3115966c)
+
 
 
 
@@ -50,5 +51,5 @@ Java/Kotlin - Programming languages used for developing the application.
 
 Android Studio - Integrated development environment (IDE) used for building and testing the application.
 
-![Screenshot 2024-08-15 160503](https://github.com/user-attachments/assets/e802ab0c-38e2-4833-8afb-160d3115966c)
+![WhatsApp Image 2024-08-15 at 15 45 40_9e6188b2](https://github.com/user-attachments/assets/8797a5c4-6c35-4126-9a0e-abb64c640dcf)
 
