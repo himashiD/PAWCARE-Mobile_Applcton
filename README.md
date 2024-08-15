@@ -7,6 +7,8 @@ Welcome to PAW CARE! This mobile application is your go-to solution for all your
 
 🐾 Customer Options
 
+User Registration/Login: Ccustomers can register and login to the system.
+
 Register Pet: Add, view, update, or delete pet details.
 
 Find Caregiver: Search and connect with caregivers.
@@ -23,6 +25,8 @@ Log Out: Securely exit the app.
 
 
 🐕 Caregiver Options
+
+User Registration/Login: Ccustomers can register and login to the system.
 
 My Profile: Manage your profile.
 
